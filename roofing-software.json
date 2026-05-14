@@ -1,0 +1,20 @@
+{
+  "$comment": "Starter file for roofing-software-list. Replace these placeholder entries with the real vendors from the RSG content pipeline. Schema documented in README.md. Maintained by Roofing Software Guide; CC BY 4.0.",
+  "version": "0.1.0",
+  "last_updated": "2026-05-14",
+  "products": [
+    {
+      "slug": "example-vendor",
+      "name": "Example Vendor",
+      "url": "https://example.com",
+      "categories": ["estimating", "crm"],
+      "audience": ["residential", "solo"],
+      "pricing_tier": "mid",
+      "free_trial": true,
+      "integrations": ["quickbooks"],
+      "rsg_review_url": "",
+      "last_verified": "2026-05-14",
+      "$comment": "Delete this example and replace with real entries from the RSG database."
+    }
+  ]
+}
