@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$comment": "Controlled vocabulary of product categories tracked by Roofing Software Guide. See roofingsoftwareguide.com for context. Maintained by RSG; CC BY 4.0.",
+  "version": "1.0.0",
+  "last_updated": "2026-05-14",
+  "categories": [
+    {
+      "slug": "estimating",
+      "label": "Estimating",
+      "description": "Quote builders, takeoff tools, profit calculators for residential and commercial roof jobs."
+    },
+    {
+      "slug": "measurement",
+      "label": "Measurement",
+      "description": "Aerial measurement services and drone-based roof reports."
+    },
+    {
+      "slug": "crm",
+      "label": "CRM",
+      "description": "Lead capture, pipeline tracking, customer communication for roofing companies."
+    },
+    {
+      "slug": "scheduling",
+      "label": "Scheduling",
+      "description": "Crew dispatch, job calendars, field-to-office sync."
+    },
+    {
+      "slug": "payments",
+      "label": "Payments",
+      "description": "Invoicing, financing partners, deposit collection."
+    },
+    {
+      "slug": "field-service",
+      "label": "Field service / all-in-one",
+      "description": "Suites that combine multiple categories above into a single platform."
+    },
+    {
+      "slug": "production",
+      "label": "Production / job management",
+      "description": "Material ordering, supplier integration, production scheduling, completion tracking."
+    },
+    {
+      "slug": "marketing",
+      "label": "Marketing",
+      "description": "Door-knocking apps, canvassing tools, lead-gen platforms specific to roofing."
+    }
+  ],
+  "pricing_tiers": [
+    { "slug": "free", "label": "Free", "range": "$0" },
+    { "slug": "low", "label": "Low", "range": "Under $100/mo" },
+    { "slug": "mid", "label": "Mid", "range": "$100\u2013$500/mo" },
+    { "slug": "high", "label": "High", "range": "$500+/mo" },
+    { "slug": "enterprise", "label": "Enterprise", "range": "Custom pricing" }
+  ],
+  "audiences": [
+    { "slug": "residential", "label": "Residential" },
+    { "slug": "commercial", "label": "Commercial" },
+    { "slug": "solo", "label": "Solo / small crew" },
+    { "slug": "mid-size", "label": "Mid-size company" },
+    { "slug": "enterprise", "label": "Enterprise / large operator" }
+  ]
+}
